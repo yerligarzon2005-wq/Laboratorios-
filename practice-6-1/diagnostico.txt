@@ -1,0 +1,12 @@
+Laboratorio 6 - Práctica 6.1: Diagnóstico inicial y herramientas
+
+1. ¿Qué diferencia hay entre JDK y JVM?
+- El JDK (Java Development Kit) es el kit completo para desarrollar, que incluye herramientas de compilación (como javac) y el entorno de ejecución. La JVM (Java Virtual Machine) es la máquina virtual que interpreta o compila mediante JIT el bytecode para ejecutarlo en el sistema operativo.
+
+2. ¿Qué produce el compilador `javac`?
+- Produce archivos con extensión .class que contienen bytecode (instrucciones intermedias para la JVM).
+
+3. Versiones comprobadas en el entorno:
+- java --version: Java 21
+- javac --version: Compilador de Java 21
+- javap -version: Desensamblador de bytecode
